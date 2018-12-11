@@ -4,11 +4,22 @@
   "description": "This is a test",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "author": "David",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.4.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhengyang-Liu/Git-Test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zhengyang-Liu/Git-Test/issues"
+  },
+  "homepage": "https://github.com/Zhengyang-Liu/Git-Test#readme"
 }
